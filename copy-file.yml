@@ -6,7 +6,7 @@
   tasks:
   - name: copy a test file
     copy:
-      src:  resolv.conf
+      src:  /var/lib/awx/projects/_14__project_mi/resolv.conf
       dest: /etc/
       owner: root
       group: root
