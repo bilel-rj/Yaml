@@ -6,7 +6,7 @@
   tasks:
   - name: copy a test file
     copy:
-      src:  /root/awx/awx/playbooks/hs/resolv.conf
+      src:  /var/lib/awx/projects/test_copy/resolv.conf
       dest: /etc/
       owner: root
       group: root
