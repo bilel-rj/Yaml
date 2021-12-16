@@ -6,7 +6,7 @@
   tasks:
   - name: copy a test file
     copy:
-      src:  ~/resolv.conf
+      src:  /root/awx/awx/playbooks/hs/resolv.conf
       dest: /etc/
       owner: root
       group: root
